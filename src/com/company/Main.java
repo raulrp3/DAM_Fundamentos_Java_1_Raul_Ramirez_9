@@ -47,6 +47,7 @@ public class Main {
         segundoNumero = validarNumero(sc);
         System.out.print("Introduce un tercer número: ");
         tercerNumero = validarNumero(sc);
+        sc.close();
         System.out.println(ordenarNumeros(primerNumero, segundoNumero, tercerNumero));
     }
 }
